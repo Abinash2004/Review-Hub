@@ -5,9 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      dropShadow: {
-        'custom': '0px 2.5px 5px black',
-      }
+      colors: {
+        primary: { // Default variant
+          dark: '#15161b ',   // Dark variant
+        },
+        secondary: {
+          dark: '#1e2029',
+        }
+      },
     },
   },
   plugins: [],
